@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="Task3.css">
+</head>
+
+<body>
+    <form>
+        <div class="wrapper">
+            <label for="name" class="text">Name:</label>
+            <input type="text" class="input" id="name" name="name" required> <br>
+
+            <label for="email" class="text">Email:</label>
+            <input type="email" class="input color1" id="email" name="email" required><br>
+
+            <label for="password" class="text">Password:</label>
+            <input type="password" class="input color2" id="password" name="password" required><br>
+
+            <label for="age" class="text">Age:</label>
+            <input type="number" class="input color3" id="age" name="age" min="18" max="100" required><br>
+
+            <label for="gender" class="text">Gender:</label>
+            <select id="gender" class="input color4" name="gender" required>
+                <option value="">--Please select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <label for="address" class="text">Address:</label>
+            <textarea id="address" class="address" name="address" rows="4" cols="30" required></textarea><br>
+
+            <label for="phone" class="text">Phone:</label>
+            <input type="tel" id="phone" class="input color5" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+            <label for="birthdate" class="text">Birthdate:</label>
+            <input type="date" id="birthdate" class="input color6" name="birthdate" required><br>
+
+            <label for="color" class="text">Favorite color:</label>
+            <input type="color" id="color" class="input" name="color" required><br>
+
+            <label for="file" class="text">Upload file:</label>
+            <input type="file" class="input color7" id="file" name="file" required><br>
+
+            <label for="checkbox" class="text">Agree to terms:</label>
+            <input type="checkbox" class="input" id="checkbox" name="checkbox" required><br>
+
+            <input type="submit" value="Submit" class="input color8">
+        </div>
+
+    </form>
+</body>
+
+</html>

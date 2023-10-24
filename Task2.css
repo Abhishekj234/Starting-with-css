@@ -1,0 +1,13 @@
+.big--text{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifzz;
+    color: rgb(146, 137, 125);
+}
+
+.small--text{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 114, 114);
+}
